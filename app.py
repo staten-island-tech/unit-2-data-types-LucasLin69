@@ -22,13 +22,8 @@ elif service == good:
 elif service == great:
     print("25% Tip") """
 def find_factors(n):
-    factors = set()
-    for i in range(1, int(n**0.5) + 1):
-        if n % i == 0:
-            factors.add(i)
-            factors.add(n // i)
-    return sorted(factors)
 
-# Example usage
 number = 12
-print(find_factors(number))  # Output: [1, 2, 3, 4, 6, 12]
+print(find_factors(number))
+input(ball)
+print("input")
