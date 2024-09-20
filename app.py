@@ -21,9 +21,13 @@ elif service == good:
     print("20% Tip")
 elif service == great:
     print("25% Tip") """
-def find_factors(n):
-
+import math
+positive_infinity = math.inf
 number = 12
+def find_factors(n):
+    quotient, remainder = divmod(n,math.inf)
+    if remainder > (0):
+        print(remainder)
+        
+print("7")
 print(find_factors(number))
-input(ball)
-print("input")
