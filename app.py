@@ -1,17 +1,18 @@
+import math
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
-def find_factors(num1num2):
-    factors = []
-    ball = []
-    if num1 > num2:
-        ball.append(num2)
-    else:
-        ball.append(num1)
-    for i in range(2,ball+1):
-        if ball % i == 0:
-            factors.append(i)
-    return factors
-print(find_factors)
+values = {}
+if num1 > num2:
+    values.append(num1)
+elif num2 > num1:
+    values.append(num2)
+else:
+    values.append(num1)
+factors = []
+for i in range(2, values+1):
+    if values % i ==(0):
+        factors.append(values)
+print(f"The GCF of {num1} and {num2} is {factors}")
 """
 verb = input("Say a verb: ")
 noun = input("Say a noun: ")
